@@ -25,6 +25,23 @@ body{
     padding:0;
     margin-top:-5%;
 }
+.right2{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+.btnApp1{
+    outline:none;
+    border:none;
+    width:50px;
+    padding:0;
+    background-color: transparent;
+
+}
+.btnApp1:hover{
+    background-color: transparent;
+
+}
 
 .glass-outer{
     display: flex;
@@ -98,5 +115,50 @@ footer{
 .glass-img{
     width:70px;
     height:70px;
+    border-radius: 5px;
+}
+.modal-content{
+    background-color: #FF0060;
+    color:#F9F5F6;
+}
+.modal-header{
+    outline:none;
+    border:none;
+}
+.modal-footer{
+    outline:none;
+    border:none;
+}
+.modal-body{
+    display: flex;
+    gap:5px;
+    justify-content: center;
+    height:200px;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+}
+.modal-body::-webkit-scrollbar{
+    display: none;
+}
+.modal-body a{
+    margin-top: 5%;
+}
+.modal-apps{
+    background-color: #40128B;
+    width:100px;
+    height:50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#FFE7CE;
+}
+.modal-apps:hover{
+    border:2px solid #F9F5F6;
+}
+.app-img{
+    width: 48px;
+    height: 48px;
     border-radius: 5px;
 }
