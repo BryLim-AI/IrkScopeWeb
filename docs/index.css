@@ -113,9 +113,10 @@ footer{
     bottom:0;
 }
 .glass-img{
-    width:70px;
-    height:70px;
+    width:75px;
+    height:75px;
     border-radius: 5px;
+    object-fit:cover;
 }
 .modal-content{
     background-color: #FF0060;
