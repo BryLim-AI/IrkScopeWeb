@@ -51,6 +51,13 @@ body{
     flex-wrap: wrap;
 }
 
+.container2{
+    width:800px;
+    height:300px;
+    margin-top: 2%;
+
+}
+
 .glass-container::-webkit-scrollbar{
     display: none;
 }
@@ -78,4 +85,15 @@ body{
 }
 .cn{
     font-family: 'Ma Shan Zheng', cursive;
+}
+
+.sectionHead{
+    color:#525FE1;
+    padding:20px;
+}
+
+footer{
+    display: fixed;
+    left:0;
+    bottom:0;
 }
